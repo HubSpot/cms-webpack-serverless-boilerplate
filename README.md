@@ -1,5 +1,5 @@
-## Simple POC for using webpack to bundle serverless function with third-party deps
-(will inform future boilrtplate and hs create command, but putting this up to help devrel spin up a guide/doc to solve for immediate pain)
+## CMS webpack-bundled serverless functions boilerplate [beta]
+Simple boilerplate for using webpack to bundle serverless function with third-party deps
 
 ### Installation
 1. `git clone` this repo
