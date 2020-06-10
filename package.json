@@ -1,0 +1,22 @@
+{
+  "name": "cms-webpack-serverless-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@hubspot/cms-cli": "^1.1.7",
+    "@hubspot/webpack-cms-plugins": "^1.1.7",
+    "copy-webpack-plugin": "^6.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "start": "webpack --watch --env.autoupload --mode production",
+    "build": "webpack --mode production",
+    "deploy": "hs upload dist cms-webpack-serverless-boilerplate",
+    "lint": "eslint src && prettier --check 'src/**/*.js' 'src/**/*.json'",
+    "prettier:write": "prettier --write 'src/**/*.js' 'src/**/*.json'"
+  }
+}

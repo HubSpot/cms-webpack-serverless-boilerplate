@@ -1,0 +1,15 @@
+{
+  "runtime": "nodejs10.x",
+  "version": "1.0",
+  "secrets": ["APIKEY"],
+  "endpoints": {
+    "top-landing-pages": {
+      "method": "GET",
+      "file": "fetchLP.js"
+    },
+    "hello-world": {
+      "method": "GET",
+      "file": "helloWorld.js"
+    }
+  }
+}
