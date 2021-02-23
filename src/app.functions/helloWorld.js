@@ -7,7 +7,7 @@ exports.main = ({ params }, sendResponse) => {
     body: {
       greeting: `Hello, ${name || "World"}!`,
       humanReadableTime,
-      statusCode: 200,
     },
+    statusCode: 200,
   });
 };
