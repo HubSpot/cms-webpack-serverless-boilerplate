@@ -1,3 +1,5 @@
+# NOTE: There is a new beta which supports dependency management via a package.json file. See https://docs.google.com/document/d/e/2PACX-1vRGX60V2wQ2Co9X1NO73hkLObcQdNWp2i49XE-pY_DRS6UjZnv4UuODz4nsI_g1gUIXFC1MhN4AFsnZ/pub for more information
+
 ## CMS webpack-bundled serverless functions boilerplate [beta]
 Simple boilerplate for using webpack to bundle serverless function with third-party deps
 
